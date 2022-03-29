@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/chat.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <title>ChatBot</title>
+</head>
+<body>
+    <div class="chat-button-container" >
+        <button class="chat-button" id="button">
+            <i class="fa-solid fa-comment-dots" style="color: #F6E9E9; font-size: 1.3rem;"></i>
+        </button>
+    </div>
+    
+    <section class="chat-container" id="chatContainer">
+        <div class="full-chat">
+            <div class="chat-header">
+                <h2 class="chat-header-text" style="color: #111213ff;">ChatBot</h2>
+            </div>
+            <div class="chat-body" id="chatArea">
+            </div>
+            <div class="chat-footer" id="chat-footer">
+                <textarea id="userInput" class="user-input" type="text" placeholder="Enter Message"></textarea>
+                <button class="chat-send-button" id="sendBtn">
+                    <i class="fa-solid fa-arrow-right" style="color: #111213ff; font-size: 0.8rem;"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <script rel="text/javascript" src="./scripts/chat.js"></script>
+    <script rel="text/javascript" src="./scripts/response-bot.js"></script>
+    <script src="https://kit.fontawesome.com/05b73a26a9.js"></script>
+</body>
+</html>

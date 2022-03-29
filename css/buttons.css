@@ -1,0 +1,40 @@
+@import url("https://kit.fontawesome.com/05b73a26a9.js");
+
+.chat-button {
+    background-color: #111213ff;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    right: 50px;
+    bottom: 40px;
+    position: fixed;
+    border: none;
+    align-items: center;
+}
+
+
+.chat-button:hover {
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+    transform: scale(1.2);
+    transform-origin: center;
+}
+
+
+.chat-send-button{
+    width: 28px;
+    height: 28px;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-color: #F6E9E9;
+}
+
+.chat-send-button:hover{
+    cursor: pointer;
+}
+
+.chat-send-button:active{
+    transform: scale(0.9);
+}
+ 
