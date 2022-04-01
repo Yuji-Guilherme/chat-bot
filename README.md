@@ -1,7 +1,7 @@
 # chat-bot
 Chatbot em Javascript
 
-Ao executar o índex.html,
+Ao executar o index.html,
 um botão aparecerá no canto inferior direito.
 
 Clicando nesse botão o chat aparece, 
